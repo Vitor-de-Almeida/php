@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Data Info</h1>
-    <?php 
+    <?php
         phpinfo();
     ?>
 </body>
