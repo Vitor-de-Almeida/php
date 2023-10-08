@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Example of PHP</h1>
-    <?php 
+    <?
         date_default_timezone_set(
             "America/Sao_Paulo" // GMT-3
         );
