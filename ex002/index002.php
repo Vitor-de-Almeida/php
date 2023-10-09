@@ -9,18 +9,18 @@
     <h1>Example of PHP</h1>
     <?php
         $name = "Gustavo";
-        $lastname = "Guanabara";
+        $lastName = "Guanabara"; // Camel Case
         const COUNTRY = "United States Of America";
         
         
         $name =  "Rafael";
-        $lastname = "Silva";
+        $lastName = "Silva";
         
-        $salary = 2500.75;
+        $salary_of_name = 2500.75; // Snake Case
 
-        echo "My pleasure, $name $lastname! You live in ". COUNTRY, "...<br>";
+        echo "My pleasure, $name $lastName! You live in ". COUNTRY, "...<br>";
         print "Is true that your name is $name?<br>";
-        print "Your monthly salary is $salary?"
+        print "Your monthly salary is $salary_of_name?"
     ?>
 </body>
 </html>
